@@ -91,4 +91,8 @@ a{
 @media screen and (max-height: 450px) {
   .nav-bar {padding-top: 15px;}
   .nav-bar a {font-size: 18px;}
+  .resume{
+      height:25%;
+      
+  }
 }
