@@ -73,12 +73,12 @@ h1{
     width:25%;
 }
 .matt img{
-      transform: rotate(90deg);
     display:block;
     margin-left:auto;
     margin-right:auto;
     padding:5%;
     width:25%;
+    image-orientation: from-image;
 }
 .resume{
     text-align:center;
