@@ -98,22 +98,4 @@ a:visited{
    color:white;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 700px) {
-  .nav-bar {padding-top: 15px;}
-  .nav-bar a {font-size: 18px;}
-  .resume{height:25%;}
-  body{
-      background-image:url("Images/matt.JPG");
-      background-size:100%;}
-  p.back{
-      font-size:100%;
-  }
-  p.home{
-      font-size:100%;
-  }
-  .menu{
-      color:white;
-  }
-  
-}
+
