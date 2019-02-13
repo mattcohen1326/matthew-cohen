@@ -87,6 +87,7 @@ p.back{
     margin-right: auto;
     color:white;
     width: 75%;
+    background: rgba(0,0,0,.5);
 }
 a{
     color:white;
@@ -96,6 +97,7 @@ a:visited{
    text-decoration:none;
    color:white;
 }
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .nav-bar {padding-top: 15px;}
@@ -104,4 +106,18 @@ a:visited{
       height:25%;
       
   }
+  body{
+      background-image:url("Images/matt.jpg");
+      background-size:100%;
+  }
+  p.back{
+      font-size:100%;
+  }
+  p.home{
+      font-size:100%;
+  }
+  .menu{
+      color:white;
+  }
+  
 }
