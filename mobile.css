@@ -3,12 +3,12 @@
   .resume{height:25%;}
   body{
       background-image:url("Images/matt.JPG");
-      background-size:100%;}
+      background-size:150%;}
   p.back{
-      font-size:100%;
+      font-size:75%;
   }
   p.home{
-      font-size:100%;
+      font-size:75%;
   }
   .menu{
       color:white;
