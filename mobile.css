@@ -1,15 +1,15 @@
- .nav-bar {padding-top: 15px;}
-  .nav-bar a {font-size: 18px;}
-  .resume{height:25%;}
-  body{
+.nav-bar {padding-top: 15px;}
+.nav-bar a {font-size: 22px;}
+.resume{height:25%;}
+body{
       background-image:url("Images/matt.JPG");
       background-size:150%;}
-  p.back{
+p.back{
       font-size:75%;
   }
-  p.home{
+p.home{
       font-size:75%;
   }
-  .menu{
+.menu{
       color:white;
   }
