@@ -30,7 +30,7 @@ body{
 	border:solid white thick;
     /* margin-top: 30vw; */
     position: fixed;
-    background-image: url(img/meinhawaii.jpeg);
+    background-image: url("img/meinhawaii.JPEG");
     background-size: cover;
     top: 50%;
     background-repeat: no-repeat;
