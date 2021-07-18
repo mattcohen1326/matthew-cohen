@@ -1,100 +1,313 @@
 body{
-    background-image:url("Images/back.jpg");
-    background-size:100%;
+	/*background-image:url("img/hawaii2.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	*/
+	margin:0px;
+	background-image:url("img/me3.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	overflow-y:scroll;
+	font-family: 'Rajdhani', sans-serif;
+	color:white;
+	overflow-x:hidden;
+}
+#about-blurb{
+	width: 15vw;
+    margin-left: 25vw;
+    margin-top: 15vh;
+    background-color: cadetblue;
+    border-radius: 10vw;
+    padding: 5vw;
+	border:solid black thick;
+}
+#about-pic{
+	width: 15vw;
+    height: 40vh;
+    margin-left: 55vw;
+	border:solid white thick;
+    /* margin-top: 30vw; */
+    position: fixed;
+    background-image: url(img/meinhawaii.jpeg);
+    background-size: cover;
+    top: 50%;
+    background-repeat: no-repeat;
+    border-radius: 5vw;
+    background-position: right;
+	
+}
+#resume{
+	width:40vw;
+	padding:5vw;
+	margin-left:25vw;
+	margin-top:5vh;
+	overflow-y:hidden;
+}
+#logo{
+	width:5vw;
+	position:fixed;
+	margin-left:2vw;
+}
+.contact-row{
+	    width: 40vw;
+    font-size: 2vw;
+    margin-left: 5vw;
+    margin-right: 0px;
+    text-align: left;
+}
+#centername img{
+	width:15vw;
+}
+#centername{
+	position:fixed;
+	width:50vw;
+	text-align:center;
+	margin-left:25vw;
+	height:20vh;
+	margin-top:25vh;
+}
+#main-text{
+	width:100vw;
+	margin-top:55vh;
+	height:40vh;
+	background:rgba(174,221,247,1);
+	/*background:rgba(173,172,107,1);*/
+	padding-top:5%;
+}
+#nav #dev-title{
+	text-align:center;
+}
+#nav #dev-title h1{
+	font-size:1.5vw;
+}
+#nav #dev-title h2{
+		font-size:1vw;
+}
+#nav h1{
+	font-size: 2vw;
+    text-align: center;
+    margin: 2%;
+	width:15vw;
+}
+#nav{
+	height: 10vh;
+    width: 100vw;
+	align-items:center;
+    background:rgba(173,172,107,1);;
+    display: flex;
+    position: relative;
+    top: 0%;
+    flex-direction: row;
+}
+#nav ul{
+	align-items: center;
+    width: 40vw;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    right: 0%;
+}
+#nav a{
+	cursor:pointer;
+	text-decoration:none;
+	color:inherit;
+}
+#nav a:visited{
+	text-decoration:none;
+}
+#title-slide{
+	width:50vw;
+	height:20vh;
+}
+#title{
+	margin-top: 2vw;
+    height: 10vh;
+    display: flex;
+    /* text-align: center; */
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 10vw;
+    width: 30vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+	background: rgba(204,205,204,.5);
+}
+#main-blurb{
+	width:50vw;
+	position:fixed;
+	margin-top:15vw;
+	background:  rgba(204,205,204,.8);
+	padding:10%;
+	padding-left:3%;
+	padding-top:3%;
 }
 
-/* The side navigation menu */
-.nav-bar {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+#sidenav{
+	position:fixed;
+	height:100vh;
+	width:20vw;
+	background:rgba(95,116,128,.8);
+	top:0%;
+	text-align:center;
+}
+#right{
+	position:fixed;
+	width:80vw;
+	margin-left:20vw;
+	display:flex;
+	justify-content:center;
+	background-image:url("img/me.jpeg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	height:100vh;
+}
+#sidenav ul{
+	margin-top:10vh;
+	padding:0px;
+	text-align:center;
+	height:50vh;
+}
+#sidenav  img{
+	width:5vw;
+	margin-bottom:5vh;
+	margin-top:5vh;
+}
+#sidenav ul li{
+	style:none;
+	height:20%;
+	list-style:none;
+	margin-top:2%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#title h1{
+	width:100%;
+}
+h1,h2{
+	margin:0px;
+}
+#title h2{
+	font-size:1vw;
 }
 
-/* The navigation menu links */
-.nav-bar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+/*
+#name{
+	font-size:5vw;
+	display:flex;
+	width:100vw;
+	text-align:center;
+	justify-content:center;
+	/*animation-name:menu;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+	animation-delay:2s;
+	
 }
 
-/* When you mouse over the navigation links, change their color */
-.nav-bar a:hover {
-  color: #f1f1f1;
+#first{
+	font-size:5vw;
+	display:flex;
+	justify-content:center;
+	margin:0px;
+	position:fixed;
+	width:50vw;
+}
+#last{
+	display:flex;
+	justify-content:center;
+	margin:0px;
+	position:fixed;
+	margin-top:3%;
 }
 
-/* Position and style the close button (top right corner) */
-.nav-bar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+@keyframes bump{
+	0%{font-size:8vw;}
+	100%{font-size:2vw;color:tan;}
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s;
-  right: 0;
-]
-  left: 0;
-  z-index: 1;
+@keyframes menu{
+	0%{width:100%;}
+	100%{width:40%;}
 }
 
-h1{
-    text-align:center;
-    font-family: 'Merriweather', serif;
+#M{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
 }
-.me img{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:25%;
+#A{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+	animation-delay:.05s;
 }
-.matt img{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    padding:5%;
-    width:25%;
-    
+#T{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+	animation-delay:.1s;
 }
-.resume{
-    text-align:center;
+#T2{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+	animation-delay:.15s;
 }
-p.home{
-    font-family: 'PT Serif', serif;
-    color:white;
-    font-size:150%;
-    margin-left:auto;
-    margin-right:auto;
-    width:75%;
-    background: rgba(0,0,0,.5);
+#H{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+	animation-delay:.2s;
 }
-p.back{
-    font-family: 'PT Serif', serif;
-    font-size: 150%;
-    margin-left: auto;
-    margin-right: auto;
-    color:white;
-    width: 75%;
-    background: rgba(0,0,0,.5);
+#E{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+	animation-delay:.25s;
 }
-a{
-    color:white;
-    
-}
-a:visited{
-   text-decoration:none;
+#W{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+	animation-delay:.4s;
 }
 
-
+#C{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+}
+#O{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+	animation-delay:.1s;
+}
+#H2{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+	animation-delay:.2s;
+}
+#E2{
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+	animation-delay:.3s;
+}
+#N{
+	
+	animation-name:bump;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+	animation-delay:.4s;
+}
+*/
