@@ -118,6 +118,10 @@ body{
 #nav a:visited{
 	text-decoration:none;
 }
+#nav img{
+	opacity:0%;
+	position:fixed;
+}
 #title-slide{
 	width:50vw;
 	height:20vh;
@@ -198,13 +202,60 @@ h1,h2{
 	font-size:1vw;
 }
 @media only screen and (max-device-width: 600px) {
+
+.contact-row{
+	margin-left:0px;
+	font-size:2vh;
+}
+.contact-row h1,h2{
+	position:relative !important;
+	opacity:100% !important;
+}
+#centername img{
+	width:25vh;
+}
 #dev-title{
 	position:fixed;
 	opacity:0%;
 }
+#nav img{
+	width:5vh;
+	opacity:100% !important; 
+	position:fixed;
+	left:3%;
+	top:2.5%;
+	
+	
+}
+#resume{
+	width: 80vw;
+    padding: 5vw;
+    margin-left: 7.5vw;
+    margin-top: 5vh;
+    overflow-y: hidden;
+}
+#dev-title h1,h2{
+	opacity:0%;
+	position:fixed;
+}
+#about-blurb{
+	width:25vh;
+	font-size:2vh;
+	margin-left:2vw;
+}
+#about-pic{
+	width:20vh;
+}
+
+#centername{
+	margin-top:10vh !important;
+}
+#centername h1{
+	font-size:3vh;
+}
 #nav ul{
 	width:80vw;
-	right:15%;
+	right:5%;
 }
 #nav a{
 	font-size: 40px !important;
