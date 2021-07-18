@@ -197,117 +197,17 @@ h1,h2{
 #title h2{
 	font-size:1vw;
 }
-
-/*
-#name{
-	font-size:5vw;
-	display:flex;
-	width:100vw;
-	text-align:center;
-	justify-content:center;
-	/*animation-name:menu;
-	animation-duration:3s;
-	animation-fill-mode:forwards;
-	animation-delay:2s;
-	
-}
-
-#first{
-	font-size:5vw;
-	display:flex;
-	justify-content:center;
-	margin:0px;
+@media only screen and (max-device-width: 600px) {
+#dev-title{
 	position:fixed;
-	width:50vw;
+	opacity:0%;
 }
-#last{
-	display:flex;
-	justify-content:center;
-	margin:0px;
-	position:fixed;
-	margin-top:3%;
+#nav ul{
+	width:80vw;
+	right:15%;
 }
-
-@keyframes bump{
-	0%{font-size:8vw;}
-	100%{font-size:2vw;color:tan;}
+#nav a{
+	font-size: 40px !important;
 }
 
-@keyframes menu{
-	0%{width:100%;}
-	100%{width:40%;}
 }
-
-#M{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-}
-#A{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-	animation-delay:.05s;
-}
-#T{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-	animation-delay:.1s;
-}
-#T2{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-	animation-delay:.15s;
-}
-#H{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-	animation-delay:.2s;
-}
-#E{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-	animation-delay:.25s;
-}
-#W{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-	animation-delay:.4s;
-}
-
-#C{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-}
-#O{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-	animation-delay:.1s;
-}
-#H2{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-	animation-delay:.2s;
-}
-#E2{
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-	animation-delay:.3s;
-}
-#N{
-	
-	animation-name:bump;
-	animation-duration:.5s;
-	animation-fill-mode:forwards;
-	animation-delay:.4s;
-}
-*/
